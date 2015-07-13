@@ -10,13 +10,12 @@ import java.util.*;
 import java.io.*;
 import java.lang.Math;
 import java.security.*;
-import com.lizakowski.tools.Bug.*;
 
 public class RandomTools {
 
 	Random gen;
 
-	public RandomTools() throws Bug{
+	public RandomTools() throws Exception{
 		//if sessid is null, this is a new session, so create a new empty session
 
                 this.gen=new Random();
@@ -31,11 +30,11 @@ public class RandomTools {
 		return ret.toString();
 	}
 	
-	public static String makeHexString(int size) throws Bug{
+	public static String makeHexString(int size) throws Exception{
                 String r= new String("");
 
 //return makeAwesomeString();
-		if (size<1) throw new Bug("HexString must have positive length");
+		if (size<1) throw new Exception("HexString must have positive length");
 
                 for (int i=0;i<size;i++) {
 			//r=r.concat(Integer.toHexString(gen.nextInt(16)));
