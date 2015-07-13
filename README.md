@@ -98,4 +98,4 @@ In 2006, I found an online essay-grading tool at a University.  I submitted some
 While the data structure was designed to be efficient, the current implementation holds the entire structure in RAM simultaneously.  The implementation focus was function more than performance.  The part of the code that is of most interest is the data structure, and how it can be used.
 
 ## License
-MIT (see LICENSE)
+MIT
