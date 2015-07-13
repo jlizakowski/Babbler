@@ -7,10 +7,11 @@ thinking about grammer.  It is free thought, rambling, babbling, in need of some
 It is the parts of the mind that can proofread a document and detect when something sounds wrong."
 
 ## Caveats
-* The code hasn't been touched in ~11 years (approx 2004 through 2006).  It was a work in progress.  I wouldn't write it the same way today.
-* I'm releasing it as open-source, if anyone is interested in extending it or experimenting with the concepts.  
+* The code has sat unused for about a decade (approx 2004 through 2006).  It was a work in progress.  I wouldn't write it the same way today.
+* I'm releasing it as open-source, if anyone is interested in extending it or experimenting with the concepts.
 * I learned about Markov chains while building this, so the implementation might be non-standard.
-* Original version from the 1990's was in Excel format. Later versions were in Perl and PHP4.  There were several Java versions, this being the most recent.
+* The part of the code that is of most interest is the data structure, and how it can be used.
+* The original version was written in the 1990's, in Excel spreadsheet format.  Later versions were in Perl and PHP4.  There were several Java versions, this being the most recent.
 
 ## Applications
 * Text Generation (Babbling)
@@ -98,7 +99,7 @@ In 2006, I found an online essay-grading tool at a University.  I submitted some
 <img src="ScreenshotOfUIndiana98PercentAuthentic_4_25_06.png">
 
 ## Performance
-While the data structure was designed to be efficient, the current implementation holds the entire structure in RAM simultaneously.  The implementation focus was function more than performance.  The part of the code that is of most interest is the data structure, and how it can be used.
+While the data structure was designed to be efficient, the current implementation holds the entire structure in RAM simultaneously.  The implementation focus was function more than performance.  
 
 ## License
 MIT
