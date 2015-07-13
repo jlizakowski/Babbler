@@ -53,6 +53,7 @@ The red light in the sky, and the stout gentleman present who had accompanied th
 
 ### Words invented
 Many of these derive from Babbling AP News feeds from the mid-2000's. 
+* subpoenalty
 * Europerate
 * biotection
 * processionalists
@@ -60,7 +61,6 @@ Many of these derive from Babbling AP News feeds from the mid-2000's.
 * innovatory
 * exceptember
 * reconomy
-* subpoenalty
 * infrastructions
 
 ## Quickstart
@@ -82,6 +82,9 @@ java  -Xmx30g -classpath ../../../../ com.lizakowski.tools.AI.SymbolTree KingJam
 
 ### Text compression?
 Yes. The efficient encoding into a markov tree can be used to replace strings of letters with their tree coordinates.  This is similar to existing compression methods, but uses a different tree structure. This was tested as pre-processor for compression, and IIRC, the performance was better than gzip, but not necessarily better than bzip2.
+
+How to compress:
+For each symbol in the input file, predict the odds for that symbol being chosen.  The odds can be represented by the symbol's integer rank.  The resulting stream of rank integers can be then fed into another compression program.  The distribution will roughly resemble 1/x tending towards zero.  
 
 Babbling can also be viewed as decompressing a file of random bytes.  The random data encodes sequences of characters that are statistically likely.  
 
