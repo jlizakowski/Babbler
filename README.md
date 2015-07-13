@@ -8,6 +8,7 @@ It is the parts of the mind that can proofread a document and detect when someth
 
 ## Caveats
 * The code has sat unused for about a decade (approx 2004 through 2006).  It was a work in progress.  I wouldn't write it the same way today.
+* It was not originally intended for public release, and has not been edited yet.  Various parts of the code are ugly.
 * I'm releasing it as open-source, if anyone is interested in extending it or experimenting with the concepts.
 * I learned about Markov chains while building this, so the implementation might be non-standard.
 * The part of the code that is of most interest is the data structure, and how it can be used.
