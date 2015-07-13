@@ -58,7 +58,6 @@ Many of these derive from Babbling AP News feeds from the mid-2000's.
 * processionalists
 * apprecisioned
 * innovatory
-* visional medicarefuses
 * exceptember
 * reconomy
 * subpoenalty
