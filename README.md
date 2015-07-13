@@ -75,7 +75,7 @@ When a text is compressed by the database that matches, it will compress best.  
 
 In 2006, I found an online essay-grading tool at a University.  I submitted some babbled / context-free versions of text, and the resulting text received a high score.  
 
-<img src="ScreenshotOfUIndiana98PercentAuthentic_4_25_06">
+<img src="ScreenshotOfUIndiana98PercentAuthentic_4_25_06.png">
 
 ## Performance
 While the data structure is efficient, the current implementation holds the entire structure in RAM simultaneously.  The implementation focus was function more than performance.  This limited development back in 2005 - between 2GB and 4GB of RAM.  How it performs above 4GB is untested.  With modern Solid-State drives, or with algorithmic tweaks, it might perform well with larger datasets.
