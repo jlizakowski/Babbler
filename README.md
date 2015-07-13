@@ -1,6 +1,11 @@
 # Babbler
 An AI tool that finds patterns in streams of data, and generates data of the same form.
 
+From the original readme:
+"The babbler is like the part of the mind of a natural speaker which can write sentences without 
+thinking about grammer.  It is free thought, rambling, babbling, in need of some direction.  
+It is the parts of the mind that can proofread a document and detect when something sounds wrong."
+
 ## Caveats
 * The code hasn't been touched in ~11 years.  It was a work in progress.  I wouldn't write it the same way today.
 * I'm releasing it as open-source, if anyone is interested in extending it or experimenting with it.  
