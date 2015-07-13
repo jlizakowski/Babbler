@@ -4,7 +4,7 @@ An AI tool that finds patterns in streams of data, and generates data of the sam
 ## Caveats
 * The code hasn't been touched in ~11 years.  It was a work in progress. I wouldn't write it the same way today.
 * I'm releasing it as open-source, if anyone is interested in extending it or experimenting with it.  
-* I learned of Markov chains while building this, so the implementation might be non-standard.
+* I learned about Markov chains while building this, so the implementation might be non-standard.
 
 ## Applications
 * Text Generation (Babbling)
@@ -20,7 +20,7 @@ This code, in its current form, only learns then babbles.  Other versions of the
 
 ### Single source of text
 ##### Input:  
-	King James Bible (Project Guttenberg)
+	King James Bible (Project Gutenberg)
 ##### Output:  
 ```
 2:19 And Peter said, Blessed is that great glory of the son of Jezreel of his charge of the body; is Lord GOD;
@@ -33,7 +33,7 @@ Behold, with me that pass in thy sight.
 
 ### Multiple sources of text
 ##### Input:  
-	First 200 MB of project Guttenberg (entire corpus)
+	First 200 MB of project Gutenberg (entire corpus)
 ##### Output:  
 ```
 The red light in the sky, and the stout gentleman present who had accompanied the prince and princess were settled by the Monthly Magazine, and all that she had said to him at the moment that he was at the back of the house, and on the following day he went to the king and the queen was a witch, and her eyes on him so that he could not see his face, as he took his seat in the House of Commons, and a mouth that was always in the same place, and the same areas of land and water, and be unclean until the even.
@@ -43,11 +43,10 @@ The red light in the sky, and the stout gentleman present who had accompanied th
 ##### Input: 
 	A song by Deadmau5.
 ##### Ouput: 
-	A repeated/looped excerpt of the song.
-<a href="com/lizakowski/tools/AI/output/Remote_Deadmau5.8khz.8bitsigned.withwhitenoise.x18.raw.wav">Song</a>
+	A repeated/looped excerpt of the <a href="com/lizakowski/tools/AI/output/Remote_Deadmau5.8khz.8bitsigned.withwhitenoise.x18.raw.wav">Song</a>.
 
 ### Words invented
-Many of these derive from Babbling AP News feeds from the mid-2000's.  
+Many of these derive from Babbling AP News feeds from the mid-2000's. 
 * Europerate
 * biotection
 * processionalists
@@ -85,7 +84,7 @@ In 2006, I found an online essay-grading tool at a University.  I submitted some
 <img src="ScreenshotOfUIndiana98PercentAuthentic_4_25_06.png">
 
 ## Performance
-While the data structure is efficient, the current implementation holds the entire structure in RAM simultaneously.  The implementation focus was function more than performance.  This limited development back in 2005 - between 2GB and 4GB of RAM.  How it performs above 4GB is untested.  With modern Solid-State drives, or with algorithmic tweaks, it might perform well with larger datasets.
+While the data structure was designed to be efficient, the current implementation holds the entire structure in RAM simultaneously.  The implementation focus was function more than performance.  The part of the code that is of most interest is the data structure, and how it can be used.
 
-The output of the text seems to improve when the input exceeds 4MB of text, and moreso at 100MB.  This is very dependent on situation.  Testing this on a large virtual machine might be interesting (high-cpu and high-ram).
-
+## License
+MIT (see LICENSE)
