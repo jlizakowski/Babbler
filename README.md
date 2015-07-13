@@ -1,7 +1,12 @@
 # Babbler
 An AI tool that finds patterns in streams of data, and generates data of the same form.
 
-## How can it be applied
+## Caveats
+* The code hasn't been touched in ~11 years.  It was a work in progress. I wouldn't write it the same way today.
+* I'm releasing it as open-source, if anyone is interested in extending it or experimenting with it.  
+* I learned of Markov chains while building this, so the implementation might be non-standard.
+
+## Applications
 * Text Generation (Babbling)
 * Text identification
 * Changing existing text to match a certain writing style (style impersonation)
@@ -14,8 +19,9 @@ This code, in its current form, only learns then babbles.  Other versions of the
 ## Quick example output
 
 ### Single source of text
-#### Input:  King James Bible (Project Guttenberg)
-#### Output:  
+##### Input:  
+	King James Bible (Project Guttenberg)
+##### Output:  
 ```
 2:19 And Peter said, Blessed is that great glory of the son of Jezreel of his charge of the body; is Lord GOD;
 Behold, with me that pass in thy sight.
@@ -26,15 +32,18 @@ Behold, with me that pass in thy sight.
 ```
 
 ### Multiple sources of text
-#### Input:  First 200 MB of project Guttenberg (entire corpus)
-#### Output:  
+##### Input:  
+	First 200 MB of project Guttenberg (entire corpus)
+##### Output:  
 ```
 The red light in the sky, and the stout gentleman present who had accompanied the prince and princess were settled by the Monthly Magazine, and all that she had said to him at the moment that he was at the back of the house, and on the following day he went to the king and the queen was a witch, and her eyes on him so that he could not see his face, as he took his seat in the House of Commons, and a mouth that was always in the same place, and the same areas of land and water, and be unclean until the even.
 ```
 
 ### Audio
-#### Input: A song by Deadmau5.
-#### Ouput: A repeated/looped excerpt of the song.
+##### Input: 
+	A song by Deadmau5.
+##### Ouput: 
+	A repeated/looped excerpt of the song.
 <a href="com/lizakowski/tools/AI/output/Remote_Deadmau5.8khz.8bitsigned.withwhitenoise.x18.raw.wav">Song</a>
 
 ### Words invented
@@ -51,10 +60,6 @@ Many of these derive from Babbling AP News feeds from the mid-2000's.
 * infrastructions
 
 
-## Caveats
-* The code hasn't been touched in ~11 years.  It was a work in progress. I wouldn't write it the same way today.
-* I'm releasing it as open-source, if anyone is interested in extending it or experimenting with it.  
-* I learned of Markov chains while building this, so the implementation might be non-standard.
 
 ## Features
 * Efficient data structure (custom, variable-depth Markov chain) stored in a tree format.  
