@@ -1,7 +1,7 @@
 # Babbler
 An AI tool that finds patterns in streams of data, and generates data of the same form.
 
-From the original readme:
+From the original Readme:
 "The babbler is like the part of the mind of a natural speaker which can write sentences without 
 thinking about grammer.  It is free thought, rambling, babbling, in need of some direction.  
 It is the parts of the mind that can proofread a document and detect when something sounds wrong."
@@ -34,8 +34,6 @@ This code, in its current form, only learns then babbles.  Other versions of the
 Behold, with me that pass in thy sight.
 
 1:10 Then did the angel that thou hast enlarged my strength faileth.
-
-2:25 And the children of Israel shall be satisfied with bread of his servants the prophets, and the high places which she had brought them into the land which I have given them that despiseth his way into the hand of the king of Babylon, and he shall come up to the house of the LORD.
 ```
 
 ### Multiple sources of text
