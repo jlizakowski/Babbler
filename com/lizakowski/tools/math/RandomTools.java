@@ -16,9 +16,7 @@ public class RandomTools {
 	Random gen;
 
 	public RandomTools() throws Exception{
-		//if sessid is null, this is a new session, so create a new empty session
-
-                this.gen=new Random();
+       this.gen=new Random();
 	}
 
 	public static String bytesToHexString(byte [] b) {
@@ -33,15 +31,12 @@ public class RandomTools {
 	public static String makeHexString(int size) throws Exception{
                 String r= new String("");
 
-//return makeAwesomeString();
 		if (size<1) throw new Exception("HexString must have positive length");
 
                 for (int i=0;i<size;i++) {
-			//r=r.concat(Integer.toHexString(gen.nextInt(16)));
-			//use math.random, cuz if you instantiate the random class multiple times within a millisecond, the seed is the same, and you get repeats!!
-			//int a=(Math.floor(Math.random()*16)).intValue();			
-			int a=(int)(Math.floor(Math.random()*16));			
-			r=r.concat(Integer.toHexString( a ));
+					//use math.random, cuz if you instantiate the random class multiple times within a millisecond, the seed is the same, and you get repeats!!
+					int a=(int)(Math.floor(Math.random()*16));			
+					r=r.concat(Integer.toHexString( a ));
                 }
 		return r;
 
@@ -79,12 +74,12 @@ public class RandomTools {
 			"Wagner","Wall","Watkins","Weber","Weegee","Weems","Weston","Winogrand",
 			"Modiglian","Mondrian","Millet","Moreau","Munch","Pissaro","Pollock"};
 
-		int a;
+			int a;
 
-                for (int i=0;i<size;i++) {
-			a=(int)(Math.floor(Math.random()*artists.length));			
-			r=r.concat(artists[a]);
-                }
+            for (int i=0;i<size;i++) {
+				a=(int)(Math.floor(Math.random()*artists.length));			
+				r=r.concat(artists[a]);
+            }
 
 		return r;
 	}
@@ -175,30 +170,7 @@ public class RandomTools {
 			)/2 );
 	
 	}
-	public static int straightRandom(int max) {
-		//provides a bell/triangle distribution from 0 to max
 
-		return (  
-			(int)(Math.floor(Math.random()*max)) 
-			 );
-	
-	}
-	public static int StraightRandom(int max) {  //deprecated due to lousy capitalization
-		//provides a bell/triangle distribution from 0 to max
-
-		return (  
-			(int)(Math.floor(Math.random()*max)) 
-			 );
-	
-	}
-	public static long StraightRandom(long max) {  //deprecated due to lousy capitalization
-		//provides a bell/triangle distribution from 0 to max
-
-		return (  
-			(long)(Math.floor(Math.random()*max)) 
-			 );
-	
-	}
 	public static double straightRandom(double max) {  // lousy inconsistent capitalization
 		//provides a bell/triangle distribution from 0 to max
 
