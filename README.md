@@ -7,9 +7,10 @@ thinking about grammer.  It is free thought, rambling, babbling, in need of some
 It is the parts of the mind that can proofread a document and detect when something sounds wrong."
 
 ## Caveats
-* The code hasn't been touched in ~11 years.  It was a work in progress.  I wouldn't write it the same way today.
-* I'm releasing it as open-source, if anyone is interested in extending it or experimenting with it.  
+* The code hasn't been touched in ~11 years (approx 2004 through 2006).  It was a work in progress.  I wouldn't write it the same way today.
+* I'm releasing it as open-source, if anyone is interested in extending it or experimenting with the concepts.  
 * I learned about Markov chains while building this, so the implementation might be non-standard.
+* Original version from the 1990's was in Excel format. Later versions were in Perl and PHP4.  There were several Java versions, this being the most recent.
 
 ## Applications
 * Text Generation (Babbling)
