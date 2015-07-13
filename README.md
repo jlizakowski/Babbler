@@ -105,14 +105,14 @@ While the data structure was designed to be efficient, the current implementatio
 * Generate prime numbers by learning and then emitting strings of digits?  No. There were no detecible/usable patterns in the digits.
 * Identify foreign languages?   Yes.  For a long time I wondered why Google Translate didn't auto-detect language.
 * Identify people?  Probably, given enough text.
-* Generate images, which involve a second dimension?  Maybe, but it wasn't designed for this.  It is focused on 1 dimenionsal streams.
+* Generate images, which involve a second dimension?  Maybe, but it wasn't designed for this.  It is focused on 1 dimensional streams.
 * Identify words?  It does, in a way, by clustering statisticaly likely strings of symbols.  
 * Learn structure and grammar?  No - that's another layer entirely.
 * Mad Libs?  Spellcheck?  Yes.  The text can be predicted both backwards and forwards
-* Generate high-quality palindromes?  Probably. 
+* Generate high-quality palindromes?  Probably.  And this could be entertaining.
 * Generate a fake news feed?  Probably. I even registered FlawedNews.com, but decided to not build the site.
 * Translate bewteen languages?  No.  But it can take the output of a translator and make it sound smoother and more natural.
-* Steganography?  Yes.  Generate a document using a non-random numeric sequence. Modulate the sequence with the data at a low bit-rate, then render/babble the text. OR, take hand-written text, decompose it to probabilities, then enforce a pattern on the probabilities that amounts to a subliminal channel, and re-render the text with changes.
+* Steganography?  Yes.  Generate a document using a non-random numeric sequence. Modulate the sequence with the data at a low bit-rate, then render/babble the text. OR, take hand-written text, decompose it to probabilities, then enforce a pattern on the probabilities that amounts to a subliminal channel, and re-render the text with changes.  This could be done in an interactive tool that lets the user pick words that transmit bits yet also sound appropriate.
 
 
 
