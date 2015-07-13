@@ -2,7 +2,7 @@
 An AI tool that finds patterns in streams of data, and generates data of the same form.
 
 ## Caveats
-* The code hasn't been touched in ~11 years.  It was a work in progress. I wouldn't write it the same way today.
+* The code hasn't been touched in ~11 years.  It was a work in progress.  I wouldn't write it the same way today.
 * I'm releasing it as open-source, if anyone is interested in extending it or experimenting with it.  
 * I learned about Markov chains while building this, so the implementation might be non-standard.
 
@@ -12,7 +12,7 @@ An AI tool that finds patterns in streams of data, and generates data of the sam
 * Changing existing text to match a certain writing style (style impersonation)
 * Data compression
 
-Most of these applications are inherent to any tool that represents data in this fashion.  These were not intended features, but result from the nature of the tool.
+Most of these applications are inherent to any tool that represents data in this fashion.  These were not intended features, but result from the nature of the tool. This type of tool is also used for speech recognition and text auto-complete.  
 
 This code, in its current form, only learns then babbles.  Other versions of the code, such as the compression tests, might be integrated in the future.
 
@@ -43,7 +43,8 @@ The red light in the sky, and the stout gentleman present who had accompanied th
 ##### Input: 
 	A song by Deadmau5.
 ##### Ouput: 
-	A repeated/looped excerpt of the <a href="com/lizakowski/tools/AI/output/Remote_Deadmau5.8khz.8bitsigned.withwhitenoise.x18.raw.wav">Song</a>.
+	A repeated/looped excerpt of the Song.
+<a href="com/lizakowski/tools/AI/output/Remote_Deadmau5.8khz.8bitsigned.withwhitenoise.x18.raw.wav">Link to WAV</a>.
 
 ### Words invented
 Many of these derive from Babbling AP News feeds from the mid-2000's. 
@@ -58,7 +59,12 @@ Many of these derive from Babbling AP News feeds from the mid-2000's.
 * subpoenalty
 * infrastructions
 
-
+## Quickstart
+```
+javac com/lizakowski/tools/AI/SymbolTree.java
+cd com/lizakowski/tools/AI 
+java  -Xmx30g -classpath ../../../../ com.lizakowski.tools.AI.SymbolTree KingJamesBible_unformatted_x2.txt
+```
 
 ## Features
 * Efficient data structure (custom, variable-depth Markov chain) stored in a tree format.  
