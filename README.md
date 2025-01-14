@@ -1,7 +1,9 @@
 # Babbler
 An AI tool that finds patterns in streams of data, and generates data of the same form.
 
-TL;DR: This a data generator that uses variable-depth markov/bayesian chains. It is 20 years old and is primitive compared to modern ML/AI. However, text generators have certain properties, regardless of the complexity of the generator.  Developing this code from first principles did make it easier to understand how LLMs can be applied.
+TL;DR: This a data generator that uses variable-depth markov/bayesian chains. It is 20 years old and is primitive compared to modern ML/AI.
+
+Text generators have certain properties, regardless of the complexity of the generator. So the use cases for the Babbler are similar to LLMs.  Developing this code from first principles did make it easier to understand how LLMs can be applied.
 
 From the original Readme:
 "The babbler is like the part of the mind of a natural speaker which can write sentences without 
