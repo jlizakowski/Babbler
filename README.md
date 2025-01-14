@@ -1,6 +1,8 @@
 # Babbler
 An AI tool that finds patterns in streams of data, and generates data of the same form.
 
+TL;DR: This a data generator that uses variable-depth markov/bayesian chains. It is 20 years old and is not modern ML/AI.
+
 From the original Readme:
 "The babbler is like the part of the mind of a natural speaker which can write sentences without 
 thinking about grammer.  It is free thought, rambling, babbling, in need of some direction.  
